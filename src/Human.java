@@ -2,7 +2,6 @@ public class Human {
   // instance variables
   String name;
   int age;
-  int numChildren;
   
   // static variable
   // this is used by all Human
@@ -12,14 +11,12 @@ public class Human {
   public Human() {
     this.name = "john";
     this.age = 10;
-    this.numChildren = 0;
   }
 
   // constructors
-  public Human(String n, int age, int numChildren) {
+  public Human(String n, int age) {
     this.name = n;
     this.age = age;
-    this.numChildren = numChildren;
   }
   
   // instance method -- run on a particular instance
