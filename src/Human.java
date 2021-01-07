@@ -41,6 +41,6 @@ public class Human {
 
   // static method -- run on the Human class
   public static void runElection() {
-      System.out.println("vote!");
+      System.out.println("See you next year!");
   }
 }
